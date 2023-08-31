@@ -24,6 +24,6 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
-    }
+    }//все запросы пользователя отправляет на DispetcherServlet
 
 }
